@@ -10,7 +10,7 @@ public class HelloController {
         return "Hello - from spring appln. ";
     }
 
-    @GetMapping(/"bye")
+    @GetMapping("/bye")
     public String bye(){
         return "bye -- from spring appln";
     }
