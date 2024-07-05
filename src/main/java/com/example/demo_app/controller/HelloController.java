@@ -9,4 +9,9 @@ public class HelloController {
     public String hello() {
         return "Hello - from spring appln. ";
     }
+
+    @GetMapping(/"bye")
+    public String bye(){
+        return "bye -- from spring appln";
+    }
 }
