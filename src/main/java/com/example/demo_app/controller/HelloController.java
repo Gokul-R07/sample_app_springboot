@@ -14,4 +14,8 @@ public class HelloController {
     public String bye(){
         return "bye -- from spring appln";
     }
+    @GetMapping("/")
+    public String temp(){
+        return "this is the home page";
+    }
 }
