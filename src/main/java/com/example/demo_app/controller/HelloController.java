@@ -10,9 +10,9 @@ public class HelloController {
         return "Hello - from spring appln. ";
     }
 
-    @GetMapping("/bye")
-    public String bye(){
-        return "bye -- from spring appln";
+    @GetMapping("/start")
+    public String start(){
+        return "Spring boot application start API";
     }
     
 }
